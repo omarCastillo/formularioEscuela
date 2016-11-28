@@ -1,0 +1,29 @@
+create database proyecto;
+
+use proyecto;
+
+create database alumno (
+nombre varchar(20),
+a_paterno varchar(20),
+a_materno varchar(20),
+edad int(20),
+sexo varchar(20),
+calle varchar(20),
+codigo_postal varchar(20),
+estado varchar(20),
+colonia varchar(20),
+num_int int(20),
+num_ext int(20),
+telefono_cel int(20),
+telefono_casa int(20),
+enfermedades varchar(20),
+estudios varchar(20),
+estatura varchar(20),
+peso int(20),
+numsocial int(20),
+rfc varchar(20),
+curp varchar(20),
+numcontrol int(20),
+carrera varchar(20),
+semestre int(20),
+grupo varchar(20));
